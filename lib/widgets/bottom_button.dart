@@ -16,11 +16,11 @@ class BottomButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        margin: EdgeInsets.only(top: 10),
+        margin: EdgeInsets.only(top: 5),
         color: kbottomContainerColor,
         height: kbottomContainerHeight,
         width: double.infinity,
-        padding: EdgeInsets.only(bottom: 20.0),
+        padding: EdgeInsets.only(bottom: 5.0),
         child: Center(
           child: Text(
             buttonText,

@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xff0a0e21),
-        scaffoldBackgroundColor: Color(0xff0a0e21),
+        primaryColor: Colors.black,
+        scaffoldBackgroundColor: Colors.black,
       ),
       home: BMICalculatorScreen(),
       routes:  {

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../constant.dart';
+
 class ReusableContainer extends StatelessWidget {
   final Color color;
   final Widget? containerChild;
@@ -17,7 +19,7 @@ class ReusableContainer extends StatelessWidget {
         child: containerChild,
         margin: EdgeInsets.all(15),
         decoration: BoxDecoration(
-          color: Color(0xff1d1e33),
+          color: kContainerColor,
           borderRadius: BorderRadius.circular(10),
         ),
       ),

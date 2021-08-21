@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 
 const kbottomContainerHeight = 80.0;
-const kbottomContainerColor = Color(0xFFEB1555);
-const kActiveColor = Color(0xFF1D1E33);
-const kInActiveColor = Color(0xFF111328);
+const kbottomContainerColor = Color(0xff2C6BC9);
+const kActiveColor =Colors.black;
+const kInActiveColor = Color(0xffEEF3FB);
+const kContainerColor = Color(0xff121716);
 
 const labelStyle = TextStyle(
   fontSize: 18,
@@ -21,12 +22,12 @@ const kLargeButtonTextStyle = TextStyle(
 );
 
 const kTitleTextStyle = TextStyle(
-  fontSize: 50.0,
+  fontSize: 40.0,
   fontWeight: FontWeight.bold,
 );
 
 const kBMITextStyle = TextStyle(
-  fontSize: 100.0,
+  fontSize: 80.0,
   fontWeight: FontWeight.bold,
 );
 
@@ -36,6 +37,6 @@ const kBodyTextStyle = TextStyle(
 
 const kResultTextStyle = TextStyle(
   color: Color(0xFF24D876),
-  fontSize: 22.0,
+  fontSize: 25.0,
   fontWeight: FontWeight.bold,
 );
